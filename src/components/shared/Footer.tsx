@@ -6,7 +6,7 @@ const Footer = () => {
       <div>
         <div className="flex items-center">
           <Image src={brandLogo} width={60} height={60} alt="brand logo" />
-          <p className="text-3xl font-bold ml-3">Blogiz</p>
+          <p className="text-3xl font-bold ml-3">BlogX</p>
         </div>
         <p className="w-2/3 mt-2 text-gray-400">
           <i>

@@ -1,9 +1,11 @@
+
+import { Blog } from "@/types";
 import Image from "next/image";
 import Link from "next/link";
 import { AiFillLike } from "react-icons/ai";
 import { FaCalendar } from "react-icons/fa";
 
-const BlogCard = ({ blog }) => {
+const BlogCard = ({ blog }: { blog: Blog }) => {
   return (
     <div className="card w-full bg-base-100 shadow-xl">
       <figure>
@@ -37,7 +39,7 @@ const BlogCard = ({ blog }) => {
           <div className="avatar items-center">
             <div className="w-8 mr-1 rounded-full">
               <Image
-                src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg"
+                src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlciUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D&fm=jpg&q=60&w=3000"
                 width={100}
                 height={100}
                 alt="author image"

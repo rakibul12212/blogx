@@ -43,7 +43,7 @@ const Navbar = () => {
         </div>
         <Link href="/" className="btn btn-ghost text-xl">
           <Image src={brandLogo} width={30} height={30} alt="brand logo" />
-          Blogiz
+          BlogX
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
